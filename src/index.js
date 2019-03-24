@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
-import './index.css';
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 import Home from './js/home';
 import Internships from './js/internships';
 import Projects from './js/projects';
