@@ -34,9 +34,9 @@ html, body {
     fill: transparent;
     cursor: crosshair;
     outline: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
 }
 .svg-wrapper:hover .shape {
     stroke-width: 2px;
